@@ -27,9 +27,12 @@ html, body{
   color: #f7f7f7;
 }
 
+
+
 #fourth{
-  background-image: url("../img/websites.jpg");
+  background-image: url("../img/header.jpg");
   background-size: cover;
+  background-position: bottom;
   color: white;
 }
 
@@ -68,10 +71,7 @@ html, body{
   float: right;
 }
 
-.text-left{
-  text-align: left;
-  display: inline-block;
-}
+
 
 .text-center{
   text-align: justify;
@@ -82,7 +82,9 @@ html, body{
 }
 
 .social-text{
-  margin-top: 25px;
+  text-align:center;
+  padding:0px;
+  margin:0px;
 }
 
 .kinda-small{
@@ -90,10 +92,19 @@ html, body{
 }
 
 
+.noselect{
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  cursor: default;
+}
+
 .social-link{
   color: white;
   text-decoration: none;
-  cursor: pointer;
   -webkit-transition: all 0.5s;
 }
 
@@ -104,6 +115,7 @@ html, body{
 
 .social{
   margin: 15px;
+  cursor: pointer !important;
 }
 
 .center-container{
@@ -125,15 +137,7 @@ html, body{
   font-size: 50px;
 }
 
-.noselect{
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  cursor: default;
-}
+
 
 .img{
   width: 300px;
@@ -174,8 +178,8 @@ html, body{
   font-size: 16.5px;
 }
 
-.col-md-2{
-  margin: 35px 20px;
+.col-md-6{
+  margin: 10px 0px;
 }
 
 .top-space{
@@ -205,9 +209,35 @@ html, body{
   background-color: #303030;
 }
 
-.pad-left-container{
-  text-align: center;
-  margin: 50px;
+
+.about-container{
+  width:350px;
+  margin: 0 auto;
+  display:block;
+}
+
+.about-title{
+  font-size:40px;
+  padding:0px;
+  margin:0px;
+  display: inline-block;
+}
+
+.about-text{
+  font-size:14px;
+  color:#DEDEDE;
+}
+
+.about-text-above{
+  font-size:10px;
+  color:#5C5C5C;
+}
+
+.about-subtitle{
+  padding: 0px 0 2px 0px;
+  margin: 0px;
+  font-size: 15px;
+  color: #DEDEDE;
 }
 
 .post{
@@ -220,6 +250,10 @@ html, body{
 .post-content{
   font-size: 15px;
 
+}
+
+.project-box{
+  padding: 25px;
 }
 
 @-webkit-keyframes bounce {
