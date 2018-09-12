@@ -150,6 +150,8 @@ html, body{
   -o-animation: bounce 2.5s infinite;
   position:relative;
   cursor: pointer;
+  margin-top: 35px;
+  color: rgba(25, 25, 25, 0.8);
 
 }
 .link{
